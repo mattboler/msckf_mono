@@ -1,3 +1,5 @@
+Matt Boler - Updating for Ubuntu 20.04/ROS Noetic/OpenCV 4
+
 # msckf_mono
 Monocular MSCKF with ROS Support
 
