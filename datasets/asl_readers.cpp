@@ -86,7 +86,7 @@ namespace asl_dataset
   cv::Mat Camera::get_data()
   {
     std::string fn = folder_ + "/data/" + list_iter_->second;
-    cv::Mat img = cv::imread(fn, CV_LOAD_IMAGE_GRAYSCALE);
+    cv::Mat img = cv::imread(fn, cv::IMREAD_GRAYSCALE);
     if(img.rows == 0 && img.cols == 0){
       std::cout << "Error opening image " << fn << std::endl;
     }
