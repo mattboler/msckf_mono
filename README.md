@@ -1,5 +1,12 @@
 Matt Boler - Updating for Ubuntu 20.04/ROS Noetic/OpenCV 4
 
+# Matt's Notes
+
+## Notation
+
+* q_CG rotates a point from global to camera
+  * p_f_C = R(q_CG) * (p_f_G - p_C_G) : Position of feature in camera frame 
+
 # msckf_mono
 Monocular MSCKF with ROS Support
 
